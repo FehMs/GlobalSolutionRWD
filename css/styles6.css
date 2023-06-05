@@ -104,3 +104,44 @@ footer p{
     margin-left: 40px;
     margin-right: 40px;
 }
+
+@media (min-width: 768px) and (max-width: 1024px){
+    footer{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .header-main{
+        font-size: 10px;
+    }
+
+    .nav a{
+        margin: 10px;
+    }
+
+    .logo-img{
+        width: 30%;
+    }
+
+    footer {
+        height: 200px;
+        font-size: 12px;
+    }
+
+    main{
+        height: 550px;
+    }
+
+    .box{
+        width: 400px;
+    }
+
+    .choose{
+        width: 350px;
+    }
+
+    .titulo{
+        width: 350px;
+    }
+}

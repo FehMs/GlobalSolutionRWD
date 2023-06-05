@@ -111,3 +111,41 @@ footer p{
     margin-left: 40px;
     margin-right: 40px;
 }
+
+@media (min-width:768px) and (max-width:1024px) {
+    footer{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .header-main{
+        font-size: 10px;
+    }
+
+    .nav a{
+        margin: 10px;
+    }
+
+    .logo-img{
+        width: 30%;
+    }
+
+    .container {
+        width: 350px;
+        height: 700px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 120px;
+        background-color: rgb(234, 247, 222);
+    }
+    footer p{
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 12px;
+    }
+}
